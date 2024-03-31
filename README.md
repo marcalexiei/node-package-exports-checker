@@ -6,14 +6,16 @@ Utility to check that all field in package.json exports have a corresponding fil
 
 I want to create something very simple to start learning Rust
 
-## Todo
+## TODO
 
-- [ ] setup this project as a monorepo (see `vercel/turbo` or `biomejs` as example)
 - [ ] write code for the utility
-  1. read a package.json and check if there is a export key
-  2. recursively navigate exports key
-  3. when a string is found check that the file specified in it exists
-- [ ] add format (check rust packages for this)
+  - [x] 1. read a package.json
+  - [x] 2. check if there is an exports key
+  - [ ] 3. Add strong types to json
+  - [ ] 4. recursively navigate exports key
+  - [ ] 5. when a string is found check that the file specified in it exists
+- [ ] add format (check rust fmt package for this)
+- [ ] setup this project as a monorepo (see `vercel/turbo` or `biomejs` as example)
 - [ ] add unit test
 - [ ] add Github Actions
-- [ ] add documentation (with deploy on github pages)
+- [ ] add documentation

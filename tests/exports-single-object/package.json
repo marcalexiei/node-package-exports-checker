@@ -1,0 +1,6 @@
+{
+  "name": "exports-single-object",
+  "exports": {
+    "default": "./index.js"
+  }
+}
